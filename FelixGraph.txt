@@ -1,0 +1,16 @@
+/* --- Hide some elements --- */
+header {
+	display: none;
+}
+#loading {
+	display: none;
+}
+div#wrap nav.filters-nav ul {
+	display: none;
+}
+div#wrap div#page section select.pull-right {
+    display: none;
+}
+div#autorefresh article div h2 {
+    display: none;
+}

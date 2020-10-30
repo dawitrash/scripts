@@ -1,0 +1,51 @@
+/* --- Hide some elements --- */
+header {
+	display: none;
+}
+#loading {
+	display: none;
+}
+div#wrap nav.filters-nav ul:first-child {
+	display: none;
+}
+div#container div#page ul {
+	display: none;
+}
+div#container div#page div.table-responsive {
+	display: none;
+}
+#footer {
+	display: none;
+}
+
+/* --- Adjust icons CSS --- */
+div#wrap nav.filters-nav ul li{
+    margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+div#wrap nav.filters-nav ul li a figure {
+    height: 65px !important;
+    width:  65px !important;
+}
+div#wrap nav.filters-nav ul li a figure {
+    height: 65px !important;
+    width:  65px !important;
+}
+div#wrap nav.filters-nav ul li a figure figcaption {
+    font-size: 1.3em;
+    height: 25px !important;
+    width:  30px !important;
+}
+
+/* --- Adjust text CSS--- */
+div#wrap div#page section#customer-info-options div.pull-right a {
+    display: none;
+}
+div#wrap div#page section#customer-info-options div.pull-left em strong:last-child::before {
+    content: '\A';
+    white-space: pre;
+}
+div#wrap div#page section#customer-info-options div.pull-left em strong:last-child {
+    font-size: 3em;
+}
+
